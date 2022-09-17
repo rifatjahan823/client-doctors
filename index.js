@@ -284,7 +284,6 @@ app.get('/allbooking',async(req,res)=>{
   const booking= await  bookingCollection.find().toArray();
   res.send(booking)
 })
-
     }
     finally{
 
